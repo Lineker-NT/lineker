@@ -1,0 +1,209 @@
+body{
+	font-family: 'Maiandra GD', calibri, serif;
+	font-size: 13px
+	margin:0px;
+	padding: 0px;
+
+}
+
+h1{
+	font-size: 40px;
+	font-weight: normal;
+	text-align: center;
+}
+header{
+	height:100px;
+}
+footer{
+	height: 80px;
+	padding-top: 30px;
+	text-align: center;
+	background-color: brown;
+	border-top: 2px solid #AAA;
+}
+nav{
+	width: 100%;
+	background-color: brown;
+}
+nav ul{
+	margin: 10px;
+	padding:10px;
+
+}
+nav li{
+	list-style-type: none;
+	float:left;
+    
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px 30px; 
+	color:white;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+}
+.table{
+	display: table;
+	margin: 0 auto;
+}
+.menu-acc:hover, .presentation{
+border-top: 5px solid #4C8;
+background-color: rgba(64,200,130,0.15);
+}
+.menu-exp:hover, .parcours{
+	border-top: 5px solid #f1dc4f;
+	background-color: rgba(241,211,79,0.15);
+	background-image:url(images/robot.jpg);
+}
+.menu-act:hover, .competences{
+	border-top: 5px solid #0070BB;
+	background-color: rgba(000,112,192,0.15);
+}
+.menu-cont:hover, .recommandation{
+	border-top: 5px solid orange;
+	background-image:url(images/robot.jpg);
+	background-color: rgba(228,77,38,0.15);
+	
+}
+nav li:hover a{
+	padding: 15px 30px 20px 30px; 
+}
+section{
+	width: 100%;
+	min-height: 300px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.sec{
+	margin: 0px 10%
+
+}
+.left{
+	float: left;
+	width: 30%; 
+}
+.right {
+	float:left;
+	width: 70% ; 
+
+}
+.riri{
+	float: left;
+	width: 400%;
+	font-weight:bolder;
+	font-size: 15px;
+	font-family: "Maiandra GD";
+}
+.fifi{
+	float: right;
+	width: 100%;
+}
+.cleft, .cright, .sousleft, .sousright{
+	width: 50%;
+	float: left; 
+}
+.sec::after, .exp::after, .reco::after{
+	content: "";
+	display: table;
+	clear: both;	
+}
+
+.orange{
+	border-top: 5px solid #e47d26;
+	background-color: rgba(228, 117, 38, 0.15);
+	margin-bottom: 0px;
+}
+.rose{
+	border-top:5px solid #e44d66;
+	background-color: rgba(228, 77, 128, 0.15);
+	margin-bottom: 0px;
+}
+.vert{
+	border-top: 5px solid #5f6;
+	background-color: rgba(70,240,80,0.15);	
+}
+.bleu{
+	border-top: 5px solid #29c;
+	background-color: rgba(30, 152, 212, 0.15);
+}
+.jaune{
+	border-top: 5px solid #f3e241;
+	background-color: rgba(240, 255, 69, 0.15);
+}
+.rouge{
+	border-top: 5px solid orange;
+	font-size: 15px;
+	background-image: url(images/playeur2.jpg);
+
+}
+.leftexp{
+	width: 45%;
+	float: left;
+	margin-right: 5%;
+}
+.rightexp{
+	width: 45%;
+	float: left;
+	margin-left: 5%;
+}
+.leftexp img{
+	width: 100%;
+	max-width: 400px;
+}
+
+@media screen and (max-width: 780px){
+	header{
+		height: 50px;
+	}
+	h1{
+		font-size: 25px;
+		margin: 20px 0px 0px 0px;
+	}
+	nav li a{
+		font-size: 12px;
+		padding: 10px;
+	}
+	nav li:hover a{
+		padding: 5px 10px 10px 10px;
+	}
+	.competences:hover a{
+		font-size: 2px;
+		margin: 2px 0px 0px 0px;
+	}
+	.sous{
+		font-size: 8px;
+		margin: 10px -40px -40px -55px;
+	}
+	.cleft{
+		font-size: 8px;
+		margin: 40px -20px -20px 30px;
+	}
+	.cright{
+		font-size: 8px;
+		margin: 40px 0px 0px 30px;
+	}
+	.left{
+		font-size: 9px;
+		margin: 9px 0px 0px 0px;
+		width: 60%;
+	}
+	.right{
+		font-size: 13px;
+
+	}
+	.fifi{
+	float: right;
+	width: 100%;
+	}
+	.riri{
+	width:300px;
+	font-size: 11px;
+    }
+    .sec{
+    	width: 55%;
+    	font-size: 8px;
+    }
+}
